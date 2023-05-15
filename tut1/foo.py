@@ -9,6 +9,9 @@ print("before functionB")
 def functionB():
     print("Function B {}".format(math.sqrt(100)))
 
+def dummyFunction():
+    print("dummyFunction called")
+
 print("before __name__ guard")
 #https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 
